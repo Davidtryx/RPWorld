@@ -1,0 +1,22 @@
+{
+  "genres": [
+    {
+      "id": "nrp",
+      "name": "Nation RP",
+      "fields": ["Map URL", "Starting Budget", "Population Cap"],
+      "minRep": 0
+    },
+    {
+      "id": "elite-fantasy",
+      "name": "High Fantasy (Elite)",
+      "fields": ["Magic System Complexity", "World Lore Link"],
+      "minRep": 1000
+    },
+    {
+      "id": "cyberpunk",
+      "name": "Cyberpunk",
+      "fields": ["Tech Level", "Corporate Influence"],
+      "minRep": 100
+    }
+  ]
+}
