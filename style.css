@@ -1,0 +1,53 @@
+:root {
+    --bg-dark: #0b0e14;
+    --panel-dark: #151921;
+    --accent-gold: #d4af37; /* The "Elite" color */
+    --text-silver: #c0c0c2;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-silver);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 260px;
+    background: var(--panel-dark);
+    padding: 2rem;
+    border-right: 1px solid #222;
+}
+
+.rep-display {
+    color: var(--accent-gold);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    border: 1px solid var(--accent-gold);
+    padding: 5px;
+    text-align: center;
+}
+
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.template-card {
+    background: var(--panel-dark);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.template-card:hover {
+    border-color: var(--accent-gold);
+    transform: translateY(-5px);
+}
